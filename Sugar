@@ -1,0 +1,22 @@
+package Coffee;
+
+
+public class Sugar extends Ingredient {
+ private String tip;
+ 
+	public Sugar(int quantity, String tip) {
+	super(quantity);
+	this.tip = tip;
+}
+
+	public Sugar(int quantity) {
+		super(quantity);
+	}
+
+	@Override
+	public String toString() {
+		return "WhiteSugar [tip=" + tip + ", quantity=" + quantity + "]";
+	}
+
+	
+}
