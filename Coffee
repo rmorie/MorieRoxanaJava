@@ -4,6 +4,8 @@ package Coffee;
 import java.util.HashSet;
 import java.util.Set;
 
+//Am folosit relatia de argregare deoarece ingredientele pot exista si fara clasa Coffee
+
 
 public class Coffee {
 	private Set<Ingredient> ingredients;
