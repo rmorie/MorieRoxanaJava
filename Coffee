@@ -1,0 +1,28 @@
+package Coffee;
+
+
+import java.util.HashSet;
+import java.util.Set;
+
+
+public class Coffee {
+	private Set<Ingredient> ingredients;
+
+
+
+	public Coffee(Ingredient...ingredients) {
+		super();
+		this.ingredients = new HashSet<Ingredient>(ingredients.length);
+				for( Ingredient ingredient: ingredients)
+	this.ingredients.add(ingredient);
+	}
+
+
+	
+
+	@Override
+	public String toString() {
+		return "Coffee[ingredients= " + ingredients +"]";
+	}
+
+}
