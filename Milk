@@ -1,1 +1,28 @@
 
+package Coffee;
+
+
+
+public class Milk extends Ingredient {
+	private float procentajGrasime;
+
+	public float getProcentajGrasime() {
+		return procentajGrasime;
+	}
+
+	public void setProcentajGrasime(float procentajGrasime) {
+		this.procentajGrasime = procentajGrasime;
+	}
+
+
+	public Milk(final int quantity, float procentajGrasime) {
+		super(quantity);
+		this.procentajGrasime = procentajGrasime;
+	}
+
+	@Override
+	public String toString() {
+		return "Milk [procentajGrasime=" + procentajGrasime +"% " +"; quantity:" +super.toString()+"]";
+	}
+	
+}
