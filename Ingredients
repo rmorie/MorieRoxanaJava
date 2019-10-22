@@ -1,0 +1,15 @@
+package Coffe
+
+ public class Ingredient{
+     protected int quantity;
+ public Ingredient( final private quantity)
+  {
+     super();
+     this quantity= quantity;
+     }
+@Override
+ public String toString()  
+ {
+    return String.valueOf(quantity);
+  } 
+}
