@@ -6,6 +6,7 @@ public class DayStatus {
 	private float nrcal;
 	
 	 LocalDate daystatus = new LocalDate();
+}
 	
 	
 
